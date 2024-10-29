@@ -19,6 +19,7 @@ class ControllerNode(Node):
 
         # service client
         self.eat_client = self.create_client(Empty, '/turtle1/eat')
+        self.spawn_target_client = self.create_client(TargetCall, '/call_target')
 
         # subscription
         self.create_subscription(Pose, '/turtle1/pose', self.pose_callback, 10)
@@ -44,8 +45,14 @@ class ControllerNode(Node):
 
             if d < 0.5:
                 self.eat_client.call_async(eat_msg)
+                self.spawn_target(True)
 
         return response
+    
+    def spawn_target(self, call):
+        msg = TargetCall.Request()
+        msg.call = True
+        self.spawn_target_client.call_async(msg)
     
     def pose_callback(self, msg:Pose):
         self.robot_pose[0] = msg.x
