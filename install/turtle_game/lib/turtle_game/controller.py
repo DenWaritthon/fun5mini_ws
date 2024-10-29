@@ -32,7 +32,7 @@ class ControllerNode(Node):
         self.get_logger().info(F'Node Controller Start')
 
     def eat_acction_callback(self, request:EatCall.Request, response:EatCall.Response):
-        if request.eat:
+        if request.call:
             eat_msg = Empty.Request()
             dx = abs(self.robot_pose[0] - self.target_pose[0])
             dy = abs(self.robot_pose[1] - self.target_pose[1])
