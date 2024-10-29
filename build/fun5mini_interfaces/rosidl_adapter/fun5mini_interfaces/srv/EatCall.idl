@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from fun5mini_interfaces/srv/EatCall.srv
+// generated code does not contain a copyright notice
+
+
+module fun5mini_interfaces {
+  module srv {
+    struct EatCall_Request {
+      boolean eat;
+    };
+    struct EatCall_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};
