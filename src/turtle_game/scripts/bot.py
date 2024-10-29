@@ -29,7 +29,7 @@ class BotNode(Node):
 
         # variable
         self.robot_pose = [0.0 , 0.0 , 0.0]
-        self.target_pose = [0.0 , 0.0]
+        self.target_pose = [-1.0 , -1.0]
         self.gain = [1.0, 5.0]
 
         self.get_logger().info(F'Node Bot Start')

@@ -31,6 +31,8 @@ class SpawnTargetNode(Node):
         self.random_target()
 
         self.get_logger().info(f'Node Spawn Target Start')
+        while not self.spawn_pizza_client.wait_for_service():
+            continue
         self.spawn_pizza(self.target_x,self.target_y)
         
     def random_target(self):
