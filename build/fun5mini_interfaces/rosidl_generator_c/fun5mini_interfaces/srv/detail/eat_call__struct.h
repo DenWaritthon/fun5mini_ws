@@ -20,7 +20,7 @@ extern "C"
 /// Struct defined in srv/EatCall in the package fun5mini_interfaces.
 typedef struct fun5mini_interfaces__srv__EatCall_Request
 {
-  bool eat;
+  bool call;
 } fun5mini_interfaces__srv__EatCall_Request;
 
 // Struct for a sequence of fun5mini_interfaces__srv__EatCall_Request.

@@ -33,14 +33,14 @@ void fun5mini_interfaces__srv__EatCall_Request__rosidl_typesupport_introspection
 
 static rosidl_typesupport_introspection_c__MessageMember fun5mini_interfaces__srv__EatCall_Request__rosidl_typesupport_introspection_c__EatCall_Request_message_member_array[1] = {
   {
-    "eat",  // name
+    "call",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(fun5mini_interfaces__srv__EatCall_Request, eat),  // bytes offset in struct
+    offsetof(fun5mini_interfaces__srv__EatCall_Request, call),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

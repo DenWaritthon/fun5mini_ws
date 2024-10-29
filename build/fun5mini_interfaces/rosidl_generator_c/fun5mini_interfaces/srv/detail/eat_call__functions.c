@@ -16,7 +16,7 @@ fun5mini_interfaces__srv__EatCall_Request__init(fun5mini_interfaces__srv__EatCal
   if (!msg) {
     return false;
   }
-  // eat
+  // call
   return true;
 }
 
@@ -26,7 +26,7 @@ fun5mini_interfaces__srv__EatCall_Request__fini(fun5mini_interfaces__srv__EatCal
   if (!msg) {
     return;
   }
-  // eat
+  // call
 }
 
 bool
@@ -35,8 +35,8 @@ fun5mini_interfaces__srv__EatCall_Request__are_equal(const fun5mini_interfaces__
   if (!lhs || !rhs) {
     return false;
   }
-  // eat
-  if (lhs->eat != rhs->eat) {
+  // call
+  if (lhs->call != rhs->call) {
     return false;
   }
   return true;
@@ -50,8 +50,8 @@ fun5mini_interfaces__srv__EatCall_Request__copy(
   if (!input || !output) {
     return false;
   }
-  // eat
-  output->eat = input->eat;
+  // call
+  output->call = input->call;
   return true;
 }
 

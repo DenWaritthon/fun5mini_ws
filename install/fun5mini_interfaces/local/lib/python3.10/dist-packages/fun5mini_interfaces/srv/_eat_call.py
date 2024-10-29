@@ -55,11 +55,11 @@ class EatCall_Request(metaclass=Metaclass_EatCall_Request):
     """Message class 'EatCall_Request'."""
 
     __slots__ = [
-        '_eat',
+        '_call',
     ]
 
     _fields_and_field_types = {
-        'eat': 'boolean',
+        'call': 'boolean',
     }
 
     SLOT_TYPES = (
@@ -70,7 +70,7 @@ class EatCall_Request(metaclass=Metaclass_EatCall_Request):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.eat = kwargs.get('eat', bool())
+        self.call = kwargs.get('call', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -101,7 +101,7 @@ class EatCall_Request(metaclass=Metaclass_EatCall_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.eat != other.eat:
+        if self.call != other.call:
             return False
         return True
 
@@ -111,17 +111,17 @@ class EatCall_Request(metaclass=Metaclass_EatCall_Request):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def eat(self):
-        """Message field 'eat'."""
-        return self._eat
+    def call(self):
+        """Message field 'call'."""
+        return self._call
 
-    @eat.setter
-    def eat(self, value):
+    @call.setter
+    def call(self, value):
         if __debug__:
             assert \
                 isinstance(value, bool), \
-                "The 'eat' field must be of type 'bool'"
-        self._eat = value
+                "The 'call' field must be of type 'bool'"
+        self._call = value
 
 
 # Import statements for member types

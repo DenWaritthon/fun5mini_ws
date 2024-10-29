@@ -3,7 +3,8 @@
   "output_dir": "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_typesupport_introspection_cpp/fun5mini_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces:srv/EatCall.idl"
+    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces:srv/EatCall.idl",
+    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces:srv/TargetCall.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +15,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces/srv/EatCall.idl"
+    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces/srv/EatCall.idl",
+    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces/srv/TargetCall.idl"
   ]
 }

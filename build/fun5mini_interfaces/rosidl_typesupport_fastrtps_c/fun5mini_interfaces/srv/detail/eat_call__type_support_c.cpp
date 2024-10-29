@@ -49,9 +49,9 @@ static bool _EatCall_Request__cdr_serialize(
     return false;
   }
   const _EatCall_Request__ros_msg_type * ros_message = static_cast<const _EatCall_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: eat
+  // Field name: call
   {
-    cdr << (ros_message->eat ? true : false);
+    cdr << (ros_message->call ? true : false);
   }
 
   return true;
@@ -66,11 +66,11 @@ static bool _EatCall_Request__cdr_deserialize(
     return false;
   }
   _EatCall_Request__ros_msg_type * ros_message = static_cast<_EatCall_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: eat
+  // Field name: call
   {
     uint8_t tmp;
     cdr >> tmp;
-    ros_message->eat = tmp ? true : false;
+    ros_message->call = tmp ? true : false;
   }
 
   return true;
@@ -90,9 +90,9 @@ size_t get_serialized_size_fun5mini_interfaces__srv__EatCall_Request(
   (void)padding;
   (void)wchar_size;
 
-  // field.name eat
+  // field.name call
   {
-    size_t item_size = sizeof(ros_message->eat);
+    size_t item_size = sizeof(ros_message->call);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -125,7 +125,7 @@ size_t max_serialized_size_fun5mini_interfaces__srv__EatCall_Request(
   full_bounded = true;
   is_plain = true;
 
-  // member: eat
+  // member: call
   {
     size_t array_size = 1;
 
@@ -141,7 +141,7 @@ size_t max_serialized_size_fun5mini_interfaces__srv__EatCall_Request(
     using DataType = fun5mini_interfaces__srv__EatCall_Request;
     is_plain =
       (
-      offsetof(DataType, eat) +
+      offsetof(DataType, call) +
       last_member_size
       ) == ret_val;
   }

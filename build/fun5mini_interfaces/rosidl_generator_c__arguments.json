@@ -3,7 +3,8 @@
   "output_dir": "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_generator_c/fun5mini_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces:srv/EatCall.idl"
+    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces:srv/EatCall.idl",
+    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces:srv/TargetCall.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces/srv/EatCall.idl"
+    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces/srv/EatCall.idl",
+    "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces/srv/TargetCall.idl"
   ]
 }

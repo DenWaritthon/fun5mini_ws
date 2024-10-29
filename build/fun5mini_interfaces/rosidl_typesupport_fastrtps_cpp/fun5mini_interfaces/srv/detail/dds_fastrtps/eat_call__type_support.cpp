@@ -32,8 +32,8 @@ cdr_serialize(
   const fun5mini_interfaces::srv::EatCall_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: eat
-  cdr << (ros_message.eat ? true : false);
+  // Member: call
+  cdr << (ros_message.call ? true : false);
   return true;
 }
 
@@ -43,11 +43,11 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   fun5mini_interfaces::srv::EatCall_Request & ros_message)
 {
-  // Member: eat
+  // Member: call
   {
     uint8_t tmp;
     cdr >> tmp;
-    ros_message.eat = tmp ? true : false;
+    ros_message.call = tmp ? true : false;
   }
 
   return true;
@@ -66,9 +66,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: eat
+  // Member: call
   {
-    size_t item_size = sizeof(ros_message.eat);
+    size_t item_size = sizeof(ros_message.call);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -96,7 +96,7 @@ max_serialized_size_EatCall_Request(
   is_plain = true;
 
 
-  // Member: eat
+  // Member: call
   {
     size_t array_size = 1;
 
@@ -112,7 +112,7 @@ max_serialized_size_EatCall_Request(
     using DataType = fun5mini_interfaces::srv::EatCall_Request;
     is_plain =
       (
-      offsetof(DataType, eat) +
+      offsetof(DataType, call) +
       last_member_size
       ) == ret_val;
   }

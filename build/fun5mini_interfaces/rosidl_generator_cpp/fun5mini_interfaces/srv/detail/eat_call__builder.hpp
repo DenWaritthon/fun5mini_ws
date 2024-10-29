@@ -21,15 +21,15 @@ namespace srv
 namespace builder
 {
 
-class Init_EatCall_Request_eat
+class Init_EatCall_Request_call
 {
 public:
-  Init_EatCall_Request_eat()
+  Init_EatCall_Request_call()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::fun5mini_interfaces::srv::EatCall_Request eat(::fun5mini_interfaces::srv::EatCall_Request::_eat_type arg)
+  ::fun5mini_interfaces::srv::EatCall_Request call(::fun5mini_interfaces::srv::EatCall_Request::_call_type arg)
   {
-    msg_.eat = std::move(arg);
+    msg_.call = std::move(arg);
     return std::move(msg_);
   }
 
@@ -48,7 +48,7 @@ template<>
 inline
 auto build<::fun5mini_interfaces::srv::EatCall_Request>()
 {
-  return fun5mini_interfaces::srv::builder::Init_EatCall_Request_eat();
+  return fun5mini_interfaces::srv::builder::Init_EatCall_Request_call();
 }
 
 }  // namespace fun5mini_interfaces

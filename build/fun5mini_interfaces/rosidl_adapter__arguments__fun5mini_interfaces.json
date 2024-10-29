@@ -1,6 +1,7 @@
 {
   "package_name": "fun5mini_interfaces",
   "non_idl_tuples": [
-    "/home/waritt/fun5mini_ws/src/fun5mini_interfaces:srv/EatCall.srv"
+    "/home/waritt/fun5mini_ws/src/fun5mini_interfaces:srv/EatCall.srv",
+    "/home/waritt/fun5mini_ws/src/fun5mini_interfaces:srv/TargetCall.srv"
   ]
 }

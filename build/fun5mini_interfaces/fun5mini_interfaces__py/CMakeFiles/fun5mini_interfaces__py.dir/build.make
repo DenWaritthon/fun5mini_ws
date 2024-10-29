@@ -70,8 +70,10 @@ fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py: rosidl_generator_py/
 fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_c.c
 fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/_eat_call.py
+fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/_target_call.py
 fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/__init__.py
 fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/_eat_call_s.c
+fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/_target_call_s.c
 
 rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/fun5mini_interfaces/srv/EatCall.idl
+rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/fun5mini_interfaces/srv/TargetCall.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/waritt/fun5mini_ws/build/fun5mini_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/waritt/fun5mini_ws/build/fun5mini_interfaces/fun5mini_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +102,17 @@ rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/fun5mini_interfaces/srv/_eat_call.py: rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/fun5mini_interfaces/srv/_eat_call.py
 
+rosidl_generator_py/fun5mini_interfaces/srv/_target_call.py: rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/fun5mini_interfaces/srv/_target_call.py
+
 rosidl_generator_py/fun5mini_interfaces/srv/__init__.py: rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/fun5mini_interfaces/srv/__init__.py
 
 rosidl_generator_py/fun5mini_interfaces/srv/_eat_call_s.c: rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/fun5mini_interfaces/srv/_eat_call_s.c
+
+rosidl_generator_py/fun5mini_interfaces/srv/_target_call_s.c: rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/fun5mini_interfaces/srv/_target_call_s.c
 
 fun5mini_interfaces__py: fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py
 fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/_fun5mini_interfaces_s.ep.rosidl_typesupport_c.c
@@ -112,6 +121,8 @@ fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/_fun5mini_inter
 fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/__init__.py
 fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/_eat_call.py
 fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/_eat_call_s.c
+fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/_target_call.py
+fun5mini_interfaces__py: rosidl_generator_py/fun5mini_interfaces/srv/_target_call_s.c
 fun5mini_interfaces__py: fun5mini_interfaces__py/CMakeFiles/fun5mini_interfaces__py.dir/build.make
 .PHONY : fun5mini_interfaces__py
 

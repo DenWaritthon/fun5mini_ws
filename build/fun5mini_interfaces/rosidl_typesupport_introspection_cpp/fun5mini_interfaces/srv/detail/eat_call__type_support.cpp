@@ -39,14 +39,14 @@ void EatCall_Request_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember EatCall_Request_message_member_array[1] = {
   {
-    "eat",  // name
+    "call",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(fun5mini_interfaces::srv::EatCall_Request, eat),  // bytes offset in struct
+    offsetof(fun5mini_interfaces::srv::EatCall_Request, call),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

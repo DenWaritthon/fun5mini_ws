@@ -360,6 +360,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fun5mini_interfaces/srv" TYPE FILE FILES "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_adapter/fun5mini_interfaces/srv/TargetCall.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fun5mini_interfaces/srv" TYPE FILE FILES "/home/waritt/fun5mini_ws/src/fun5mini_interfaces/srv/EatCall.srv")
 endif()
 
@@ -369,6 +373,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fun5mini_interfaces/srv" TYPE FILE FILES "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_cmake/srv/EatCall_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fun5mini_interfaces/srv" TYPE FILE FILES "/home/waritt/fun5mini_ws/src/fun5mini_interfaces/srv/TargetCall.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fun5mini_interfaces/srv" TYPE FILE FILES "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_cmake/srv/TargetCall_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fun5mini_interfaces/srv" TYPE FILE FILES "/home/waritt/fun5mini_ws/build/fun5mini_interfaces/rosidl_cmake/srv/TargetCall_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

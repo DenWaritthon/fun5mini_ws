@@ -25,10 +25,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: eat
+  // member: call
   {
-    out << "eat: ";
-    rosidl_generator_traits::value_to_yaml(msg.eat, out);
+    out << "call: ";
+    rosidl_generator_traits::value_to_yaml(msg.call, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -37,13 +37,13 @@ inline void to_block_style_yaml(
   const EatCall_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: eat
+  // member: call
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "eat: ";
-    rosidl_generator_traits::value_to_yaml(msg.eat, out);
+    out << "call: ";
+    rosidl_generator_traits::value_to_yaml(msg.call, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

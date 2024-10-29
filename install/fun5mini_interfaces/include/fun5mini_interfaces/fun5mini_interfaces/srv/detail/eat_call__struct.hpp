@@ -38,7 +38,7 @@ struct EatCall_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->eat = false;
+      this->call = false;
     }
   }
 
@@ -48,20 +48,20 @@ struct EatCall_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->eat = false;
+      this->call = false;
     }
   }
 
   // field types and members
-  using _eat_type =
+  using _call_type =
     bool;
-  _eat_type eat;
+  _call_type call;
 
   // setters for named parameter idiom
-  Type & set__eat(
+  Type & set__call(
     const bool & _arg)
   {
-    this->eat = _arg;
+    this->call = _arg;
     return *this;
   }
 
@@ -107,7 +107,7 @@ struct EatCall_Request_
   // comparison operators
   bool operator==(const EatCall_Request_ & other) const
   {
-    if (this->eat != other.eat) {
+    if (this->call != other.call) {
       return false;
     }
     return true;

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/fun5mini_interfaces/srv/__init__.py"
   "../rosidl_generator_py/fun5mini_interfaces/srv/_eat_call.py"
   "../rosidl_generator_py/fun5mini_interfaces/srv/_eat_call_s.c"
+  "../rosidl_generator_py/fun5mini_interfaces/srv/_target_call.py"
+  "../rosidl_generator_py/fun5mini_interfaces/srv/_target_call_s.c"
   "CMakeFiles/fun5mini_interfaces__py"
 )
 
