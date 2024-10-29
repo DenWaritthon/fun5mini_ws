@@ -7,6 +7,9 @@
 /home/waritt/fun5mini_ws/install/turtle_game/local/lib/python3.10/dist-packages/turtle_game/__init__.py
 /home/waritt/fun5mini_ws/install/turtle_game/local/lib/python3.10/dist-packages/turtle_game/dummy_module.py
 /home/waritt/fun5mini_ws/install/turtle_game/lib/turtle_game/dummy_script.py
+/home/waritt/fun5mini_ws/install/turtle_game/lib/turtle_game/controller.py
+/home/waritt/fun5mini_ws/install/turtle_game/lib/turtle_game/spawn_target.py
+/home/waritt/fun5mini_ws/install/turtle_game/lib/turtle_game/bot.py
 /home/waritt/fun5mini_ws/install/turtle_game/lib/turtle_game/cpp_node_test
 /home/waritt/fun5mini_ws/install/turtle_game/share/ament_index/resource_index/package_run_dependencies/turtle_game
 /home/waritt/fun5mini_ws/install/turtle_game/share/ament_index/resource_index/parent_prefix_path/turtle_game

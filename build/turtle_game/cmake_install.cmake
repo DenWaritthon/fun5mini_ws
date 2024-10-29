@@ -67,7 +67,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/turtle_game" TYPE PROGRAM FILES "/home/waritt/fun5mini_ws/src/turtle_game/scripts/dummy_script.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/turtle_game" TYPE PROGRAM FILES
+    "/home/waritt/fun5mini_ws/src/turtle_game/scripts/dummy_script.py"
+    "/home/waritt/fun5mini_ws/src/turtle_game/scripts/controller.py"
+    "/home/waritt/fun5mini_ws/src/turtle_game/scripts/spawn_target.py"
+    "/home/waritt/fun5mini_ws/src/turtle_game/scripts/bot.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -91,7 +96,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtle_game" TYPE DIRECTORY FILES "")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtle_game" TYPE DIRECTORY FILES "/home/waritt/fun5mini_ws/src/turtle_game/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
