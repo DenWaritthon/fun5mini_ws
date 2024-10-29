@@ -11,6 +11,7 @@
 /home/waritt/fun5mini_ws/install/turtle_game/lib/turtle_game/spawn_target.py
 /home/waritt/fun5mini_ws/install/turtle_game/lib/turtle_game/bot.py
 /home/waritt/fun5mini_ws/install/turtle_game/lib/turtle_game/cpp_node_test
+/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/launch/turtle_game_bot.launch.py
 /home/waritt/fun5mini_ws/install/turtle_game/share/ament_index/resource_index/package_run_dependencies/turtle_game
 /home/waritt/fun5mini_ws/install/turtle_game/share/ament_index/resource_index/parent_prefix_path/turtle_game
 /home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/environment/ament_prefix_path.sh

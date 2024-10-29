@@ -1,0 +1,231 @@
+[0.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.079s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff68a11c1c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff68a0dfd00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff68a0dfd00>>)
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/waritt/fun5mini_ws'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/fun5mini_interfaces) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fun5mini_interfaces' with type 'ros.ament_cmake' and name 'fun5mini_interfaces'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_game) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_game' with type 'ros.ament_cmake' and name 'turtle_game'
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/waritt/fun5mini_ws/install
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/waritt/urosrobotsim_ws/install
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/waritt/uros_ws/install
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/waritt/robotsim_ws/install
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/waritt/ros2_ws/install
+[0.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 421 installed packages in /opt/ros/humble
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'fun5mini_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'fun5mini_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waritt/fun5mini_ws/build/fun5mini_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waritt/fun5mini_ws/install/fun5mini_interfaces', 'merge_install': False, 'path': '/home/waritt/fun5mini_ws/src/fun5mini_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'turtle_game' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_game' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waritt/fun5mini_ws/build/turtle_game', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waritt/fun5mini_ws/install/turtle_game', 'merge_install': False, 'path': '/home/waritt/fun5mini_ws/src/turtle_game', 'symlink_install': False, 'test_result_base': None}
+[0.267s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.267s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/waritt/fun5mini_ws/src/fun5mini_interfaces' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/waritt/fun5mini_ws/src/fun5mini_interfaces'
+[0.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/waritt/fun5mini_ws/src/turtle_game' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/waritt/fun5mini_ws/src/turtle_game'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waritt/fun5mini_ws/build/fun5mini_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/waritt/fun5mini_ws/build/fun5mini_interfaces -- -j16 -l16
+[0.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waritt/fun5mini_ws/build/turtle_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/waritt/fun5mini_ws/build/turtle_game -- -j16 -l16
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waritt/fun5mini_ws/build/turtle_game' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/waritt/fun5mini_ws/build/turtle_game -- -j16 -l16
+[0.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waritt/fun5mini_ws/build/fun5mini_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/waritt/fun5mini_ws/build/fun5mini_interfaces -- -j16 -l16
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waritt/fun5mini_ws/build/turtle_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/waritt/fun5mini_ws/build/turtle_game
+[0.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_game)
+[0.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waritt/fun5mini_ws/build/turtle_game' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/waritt/fun5mini_ws/build/turtle_game
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game' for CMake module files
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game' for CMake config files
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_game', 'cmake_prefix_path')
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/hook/cmake_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/hook/cmake_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/hook/cmake_prefix_path.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/lib'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/bin'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/lib/pkgconfig/turtle_game.pc'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/lib/python3.10/site-packages'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/bin'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.sh'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.bash'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.zsh'
+[0.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waritt/fun5mini_ws/install/turtle_game/share/colcon-core/packages/turtle_game)
+[0.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waritt/fun5mini_ws/build/fun5mini_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/waritt/fun5mini_ws/build/fun5mini_interfaces
+[0.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_game)
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game' for CMake module files
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game' for CMake config files
+[0.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_game', 'cmake_prefix_path')
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/hook/cmake_prefix_path.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/hook/cmake_prefix_path.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/hook/cmake_prefix_path.sh'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/lib'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/bin'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/lib/pkgconfig/turtle_game.pc'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/lib/python3.10/site-packages'
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/turtle_game/bin'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.sh'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.bash'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/turtle_game/share/turtle_game/package.zsh'
+[0.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waritt/fun5mini_ws/install/turtle_game/share/colcon-core/packages/turtle_game)
+[0.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fun5mini_interfaces)
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces' for CMake module files
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waritt/fun5mini_ws/build/fun5mini_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/waritt/fun5mini_ws/build/fun5mini_interfaces
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces' for CMake config files
+[0.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('fun5mini_interfaces', 'cmake_prefix_path')
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/cmake_prefix_path.ps1'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/cmake_prefix_path.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/cmake_prefix_path.sh'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/lib'
+[0.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('fun5mini_interfaces', 'ld_library_path_lib')
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/ld_library_path_lib.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/ld_library_path_lib.dsv'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/ld_library_path_lib.sh'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/bin'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/lib/pkgconfig/fun5mini_interfaces.pc'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/lib/python3.10/site-packages'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/bin'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.sh'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.bash'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.zsh'
+[0.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/colcon-core/packages/fun5mini_interfaces)
+[0.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fun5mini_interfaces)
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces' for CMake module files
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces' for CMake config files
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('fun5mini_interfaces', 'cmake_prefix_path')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/cmake_prefix_path.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/cmake_prefix_path.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/cmake_prefix_path.sh'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/lib'
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('fun5mini_interfaces', 'ld_library_path_lib')
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/ld_library_path_lib.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/ld_library_path_lib.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/hook/ld_library_path_lib.sh'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/bin'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/lib/pkgconfig/fun5mini_interfaces.pc'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/lib/python3.10/site-packages'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/bin'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.sh'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.bash'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/fun5mini_interfaces/package.zsh'
+[0.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waritt/fun5mini_ws/install/fun5mini_interfaces/share/colcon-core/packages/fun5mini_interfaces)
+[0.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.720s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.724s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.735s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/waritt/fun5mini_ws/install/local_setup.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/waritt/fun5mini_ws/install/_local_setup_util_ps1.py'
+[0.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/waritt/fun5mini_ws/install/setup.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/waritt/fun5mini_ws/install/local_setup.sh'
+[0.739s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/waritt/fun5mini_ws/install/_local_setup_util_sh.py'
+[0.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/waritt/fun5mini_ws/install/setup.sh'
+[0.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/waritt/fun5mini_ws/install/local_setup.bash'
+[0.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/waritt/fun5mini_ws/install/setup.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/waritt/fun5mini_ws/install/local_setup.zsh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/waritt/fun5mini_ws/install/setup.zsh'

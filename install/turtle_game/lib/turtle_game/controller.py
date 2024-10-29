@@ -18,11 +18,11 @@ class ControllerNode(Node):
         self.create_service(EatCall, 'call_eat', self.eat_acction_callback)
 
         # service client
-        self.eat_client = self.create_client(Empty, '/turtle1/eat')
+        self.eat_client = self.create_client(Empty, 'eat')
         self.spawn_target_client = self.create_client(TargetCall, '/call_target')
 
         # subscription
-        self.create_subscription(Pose, '/turtle1/pose', self.pose_callback, 10)
+        self.create_subscription(Pose, 'pose', self.pose_callback, 10)
         self.create_subscription(Pose, '/target', self.target_callback, 10)
 
         # variable

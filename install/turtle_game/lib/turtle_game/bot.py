@@ -17,10 +17,10 @@ class BotNode(Node):
         self.eat_client = self.create_client(EatCall, 'call_eat')
         
         # publisher
-        self.cmd_vel_pub = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
+        self.cmd_vel_pub = self.create_publisher(Twist, 'cmd_vel', 10)
 
         # subscription
-        self.create_subscription(Pose, '/turtle1/pose', self.pose_callback, 10)
+        self.create_subscription(Pose, 'pose', self.pose_callback, 10)
         self.create_subscription(Pose, '/target', self.target_callback, 10)
 
         # timer
