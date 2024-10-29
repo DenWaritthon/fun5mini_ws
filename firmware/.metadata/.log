@@ -1,0 +1,33 @@
+!SESSION 2024-10-29 21:25:31.315 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-29 21:25:44.662
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-29 21:25:44.662
+!MESSAGE Log4j2 initialized with config file /home/waritt/fun5mini_ws/firmware/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-29 21:25:46.626
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-29 21:26:24.928
+!MESSAGE Indexed 'Joy_Funminipro' (47 sources, 161 headers) in 3.57 sec: 17,972 declarations; 81,175 references; 14 unresolved inclusions; 156 syntax errors; 208 unresolved names (0.21%)
+!SESSION 2024-10-29 21:26:30.085 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-29 21:26:34.532
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-29 21:26:34.532
+!MESSAGE Log4j2 initialized with config file /home/waritt/fun5mini_ws/firmware/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-29 21:26:36.985
+!MESSAGE Started RMI Server, listening on port 41337
