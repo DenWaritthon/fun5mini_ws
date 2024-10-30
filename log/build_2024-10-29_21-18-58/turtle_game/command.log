@@ -1,6 +1,0 @@
-Invoking command in '/home/waritt/fun5mini_ws/build/turtle_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/waritt/fun5mini_ws/src/turtle_game -DCMAKE_INSTALL_PREFIX=/home/waritt/fun5mini_ws/install/turtle_game
-Invoked command in '/home/waritt/fun5mini_ws/build/turtle_game' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/waritt/fun5mini_ws/src/turtle_game -DCMAKE_INSTALL_PREFIX=/home/waritt/fun5mini_ws/install/turtle_game
-Invoking command in '/home/waritt/fun5mini_ws/build/turtle_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/waritt/fun5mini_ws/build/turtle_game -- -j16 -l16
-Invoked command in '/home/waritt/fun5mini_ws/build/turtle_game' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/waritt/fun5mini_ws/build/turtle_game -- -j16 -l16
-Invoking command in '/home/waritt/fun5mini_ws/build/turtle_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/waritt/fun5mini_ws/build/turtle_game
-Invoked command in '/home/waritt/fun5mini_ws/build/turtle_game' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/waritt/fun5mini_ws/build/turtle_game

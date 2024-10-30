@@ -1,8 +1,0 @@
-srv/EatCall.idl
-srv/EatCall.srv
-srv/EatCall_Request.msg
-srv/EatCall_Response.msg
-srv/TargetCall.idl
-srv/TargetCall.srv
-srv/TargetCall_Request.msg
-srv/TargetCall_Response.msg
