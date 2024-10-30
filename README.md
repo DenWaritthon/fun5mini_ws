@@ -8,7 +8,8 @@
   - [Table of Contents (TOC)](#table-of-contents-toc)
   - [Futures](#futures)
     - [System architecture](#system-architecture)
-    - [Micro-ros](#micro-ros)
+    - [Micro-ros (ling/cubemx\_node)](#micro-ros-lingcubemx_node)
+    - [Controller\_node](#controller_node)
   - [การเล่นเบื้องต้น](#การเล่นเบื้องต้น)
   - [การติดตั้ง](#การติดตั้ง)
     - [1. Clone Project from github](#1-clone-project-from-github)
@@ -18,7 +19,7 @@
       - [4. Launch Project](#4-launch-project)
 
 ## Futures 
-เราสร้างเกมที่เต่าจะแข่งกันกินพิซซ่ากับบอทของเรา โดยนำ [Turtlesim_plus](https://github.com/tchoopojcharoen/turtlesim_plus) และ Micro-Ros มาประยุกต์ในการสร้างเกมนี้ขึ้นมา
+เราสร้างเกมที่เต่าจะแข่งกันกินพิซซ่ากับบอทของเรา โดยนำ [Turtlesim_plus](https://github.com/tchoopojcharoen/turtlesim_plus) และ [Micro-Ros](https://micro.ros.org/) มาประยุกต์ในการสร้างเกมนี้ขึ้นมา
 
 ### System architecture
 ![system architecture](/image/system.png)
@@ -35,7 +36,7 @@
   * spawn_target_node
   * turtlesim+
 
-### Micro-ros
+### Micro-ros (ling/cubemx_node)
 ตัว Micro ros จะส่ง topic
 ```
 /ling/cmd_vel
@@ -49,6 +50,27 @@
 โดยควบคุมผ่าน "funduino joystick shield"
 ![Funduino_joystick_shield](/image/fundruino_joy.jpg)
 [รูปภาพจาก rajivelectronics](https://rajivelectronics.com/product/joystick-shield-expansion-board-3-3v-5v/)
+
+### Controller_node
+ตัว Controller จะ Sub topic
+```bash
+/namespace/pose
+/target 
+```
+* /namespace/pose จะรับตำแหน่งของเต่า จาก namesapce ที่ตั้งไว้
+* /target จะรับตำแหน่งของพิซซ่าที่จะเกิดขึ้น
+
+และยังมี Service
+```bash
+/namespace/call_eat
+/namespace/eat
+/call_target 
+```
+* /namesapce/call_eat จะเป็น Serive server โดยจะรับคำสั่งเมื่อจะกิน แต่จะกินในระยะ
+
+* /namespace/eat จะเป็น Service client จะ Call ไปหา turtlesim+ เพื่อกินพิซซ่าในระยะ
+
+* /call_target จะเป็น Service client จะ call ไปหา spawn_target_node เพื่อเรืยกหา พิซซ่า
 
 ## การเล่นเบื้องต้น
  
@@ -85,7 +107,7 @@ cd ..
 #### 2. Build Project
 ทำให้อยู้ใน Foler ws ของเราในที่นี้คือ fun5mini_ws
 ``` bash
-#ใน Folder fun5mini_ws
+#อยู่ที่ Folder fun5mini_ws
 colcon build #optional --parallel-workers 2 
 ```
 (--parallel-workers เพื่อเพิ่ม CPU ในการประมวลผล ตอนรันครั้งแรกจะประมวลไม่ทันแล้วคอมค้าง จะใช้หรือไม่ใช้ก็ได้)
